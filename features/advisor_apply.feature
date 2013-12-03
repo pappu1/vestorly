@@ -14,5 +14,7 @@ Feature: Advisor Applies
     Given I am not signed in
     When I visit the advisor apply page
     And I fill out the advisor apply form with valid credentials
+	And I wait for 10 seconds
     Then I should be thanked for applying
+	And I wait for 30 seconds
 	
