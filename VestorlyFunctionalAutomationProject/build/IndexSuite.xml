@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Vestorly Automation " verbose="10" parallel="tests"
+	thread-count="2">
+
+	<!-- Put IP of localhost/Grid Hub machine -->
+	<parameter name="selenium.host" value="localhost" />
+
+	<!-- Put Port of localhost RC/Grid Hub machine -->
+	<parameter name="selenium.port" value="4444" />
+
+	<!-- Put target browser name as below: 1) Firefox : firefox 2) chrome : 
+		chrome 3) IExplorer : ie8 / ie9 -->
+	<parameter name="selenium.browser" value="firefox" />
+
+	<!-- @NOTE: 1) Un-comment <test> tag to run respective test. 2) Comment 
+		<test> tag to unrun respective test. -->
+
+	<parameter name="selenium.url" value="https://vestorly-dev.herokuapp.com/" />
+
+	<!--  <listeners>
+		<listener class-name="com.vestorly.utils.CustomListnerTestNG" />
+	</listeners>-->
+
+	<!-- Selenium Advisor Apply Feature  
+	<test name="Selenium - AdvisorApply Feature">
+
+		<classes>
+			<class name="com.vestorly.verifications.Index">
+				<methods>
+					<include name="advisorApply" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	
+	<!-- Selenium Admin Approve Advisor Feature   
+	<test name="Selenium - Admin Approved Advisor Feature">
+
+		<classes>
+			<class name="com.vestorly.verifications.Index">
+				<methods>
+					<include name="adminApproveAdvisor" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	
+	<!-- User SignUp Via - Email Feature -->
+	<test name="Selenium - SignUp via Email Feature">
+
+		<classes>
+			<class name="com.vestorly.verifications.Index">
+				<methods>
+					<include name="signUpViaEmail" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	
+	<!-- User Advisior Linkedin Invite 
+	<test name="Selenium - Advisior LinkedIn Invite">
+
+		<classes>
+			<class name="com.vestorly.verifications.Index">
+				<methods>
+					<include name="advisiorLinkedInInvite" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+</suite>

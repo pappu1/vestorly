@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Functional_Suites_For_Vestorly" verbose="10" parallel="tests"
+	thread-count="3">
+
+	<!-- @NOTES: 1) Un-comment <suite-file> tag to run respective test suite. 
+		2) Comment <suite-file> tag to unrun respective test suite. -->
+
+	<!-- -->
+	<listeners>
+		<listener class-name="com.vestorly.utils.CustomListnerTestNG" />
+	</listeners>
+	
+	<suite-files>
+
+		<!-- Run Index suite -->
+		<suite-file path="./IndexSuite.xml" />
+
+	</suite-files>
+
+</suite>
