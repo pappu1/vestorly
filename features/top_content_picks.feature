@@ -8,6 +8,6 @@ Feature: Top content picks feature
   @needs_login_data 
   Scenario: From top content picks
      And I wait for 30 seconds
-	 When I am signed in for top content feature
+	 Given I am signed in for top content feature
 	 When I visit the your content page for top content pick
 	 
