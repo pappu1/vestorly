@@ -8,7 +8,7 @@ Feature: Build your list feature
   @needs_login_data
   Scenario: From build your list
      And I wait for 10 seconds
-     Given I am signed in for build your list
+     Given I am visited forgot password for build your list
 	 And I wait for 5 seconds
 	 When I should see a your network link for build your list
 	 When I visit the your settings page for your network
@@ -17,7 +17,7 @@ Feature: Build your list feature
   @needs_login_data
   Scenario: For list added successfully
      And I wait for 10 seconds
-     Given I am signed in for list added feature
+     Given I am visited forgot password for list
 	 And I wait for 5 seconds
 	 Then I visit build your list link
      Then I should see add someone individually text
@@ -27,13 +27,13 @@ Feature: Build your list feature
   @needs_login_data
   Scenario: From build your list,LinkedIn SelectAll feature 
      And I wait for 10 seconds
-     Given I am signed in for linkedIn selectall feature
+     Given I am visited forgot password  for linkedin selectall
 	 Then I visit build your list link
 	 Then I should see selectall link
 	 
   @needs_login_data
   Scenario: From build your list,LinkedIn UnselectAll feature 
      And I wait for 10 seconds
-	 Given I am signed in for linkedIn unselectall feature
+	 Given I am visited forgot password for linkedin unselectall
 	 Then I visit build your list link
 	 Then I should see unselectall link
