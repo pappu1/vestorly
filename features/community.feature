@@ -8,7 +8,7 @@ Feature: Community feature
   @needs_login_data
   Scenario: From view your community
      And I wait for 10 seconds
-     Given I am signed in for community
+     Given I am visited forgot password for community
 	 When I should see a your network link for community
 	 When I visit the your settings page for community feature
 	 Then I visit community link
