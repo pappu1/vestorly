@@ -29,11 +29,11 @@ Feature: Build your list feature
      And I wait for 10 seconds
      Given I am visited forgot password  for linkedin selectall
 	 Then I visit build your list link
-	 Then I should see selectall link
+	 #Then I should see selectall link
 	 
   @needs_login_data
   Scenario: From build your list,LinkedIn UnselectAll feature 
      And I wait for 10 seconds
 	 Given I am visited forgot password for linkedin unselectall
 	 Then I visit build your list link
-	 Then I should see unselectall link
+	 #Then I should see unselectall link
