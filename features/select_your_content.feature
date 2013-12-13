@@ -8,7 +8,7 @@ Feature: Select your content feature
   @needs_login_data
   Scenario: From your content
   And I wait for 10 seconds
-     Given I am signed in for select your content
+     Given I am visited forgot password for select your content
 	 When I should see a your content link for select your content
 	 When I visit the your content page
 	 Then I visit select your content list link

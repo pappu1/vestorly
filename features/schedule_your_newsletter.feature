@@ -8,7 +8,7 @@ Feature: Scheduled your newsletter feature
   @needs_login_data 
   Scenario: From schedule newsletter
      And I wait for 10 seconds
-	 Given I am signed in for your newsletter feature
+	 Given I am visited forgot password for schedule your newsletter
 	 Then I visit the your content page for newsletter
 	 Then I should see newsletter content
 	 
