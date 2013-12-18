@@ -13,5 +13,6 @@ Feature: login with valid credentials
   Scenario: From login Page
     Given I am going signed in
     When I visit the member login page
-	Then I fill out the login form with valid credentials
+	When I fill out the login form with valid credentials
+	Then I clicked on logout link
 	

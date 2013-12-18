@@ -8,8 +8,8 @@ Feature: Create original content feature
   @needs_login_data
   Scenario: From original content
      And I wait for 10 seconds
-     Given I am not signed in
-	 When I am visited forgot password for community
+     Given I am going signed in
+	 When I am signed in for create original content
 	 Then I visit the your content page for create original content
 	 Then I should see publish your original content your content
 	 

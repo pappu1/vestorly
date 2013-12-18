@@ -1,6 +1,10 @@
 Given(/^I am not signed in$/) do
 end
 
+When(/^I am visited with my slug name$/) do
+  visit '/mistry'
+end
+
 Given(/^I am going signed in$/) do
 end
 

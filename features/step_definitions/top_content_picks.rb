@@ -1,5 +1,5 @@
 When(/^I am signed in for top content feature$/) do
-  visit '/sagar'
+  visit '/mistry'
   fill_in "username", with: "pappusagar@gmail.com"
   fill_in "password", with: "sagar@perfect"
   click_on "Log in to Your Account"

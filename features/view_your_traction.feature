@@ -7,8 +7,9 @@ Feature: View Your Traction feature
  
   @needs_login_data
   Scenario: From view your traction
-     And I wait for 10 seconds
-     Given I am signed in for view your traction
+     And I wait for 5 seconds
+     Given I am going signed in
+	 When I am signed in for view your traction
 	 When I should see a your network link for leads
 	 When I visit the your settings page for your traction feature
 	 Then I visit view your traction link
